@@ -11,7 +11,7 @@ const commands = {
 
   about: `reself is a digital legacy platform — a way to preserve and share your digital self through AI.`,
 
-  contact: `📧 Email: hi@reself.dev\n🌐 Web: reself.dev\n🐙 GitHub: github.com/reself`,
+  contact: `📧 Email: amirodan@gmail.com\n`,
 };
 
 function handleCommand(cmd) {
