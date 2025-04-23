@@ -33,3 +33,8 @@ input.addEventListener("keydown", (e) => {
     input.value = "";
   }
 });
+
+// Run 'help' on load to display available commands
+window.onload = () => {
+  handleCommand("help");
+};
