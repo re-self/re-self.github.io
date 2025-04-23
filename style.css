@@ -1,9 +1,10 @@
 body {
-  background-color: #000;
-  color: #33ff33;
-  font-family: 'Courier New', monospace;
+  background-image: url("face_image.png");
+  background-size: cover;
+  background-position: center;
   margin: 0;
   padding: 0;
+  font-family: 'Courier New', monospace;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,14 +12,15 @@ body {
 }
 
 .terminal {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00ffff;
+  padding: 2rem;
+  box-shadow: 0 0 15px #00ffff;
   width: 90%;
   max-width: 800px;
-  background: #111;
-  padding: 2rem;
-  border: 2px solid #33ff33;
-  box-shadow: 0 0 15px #33ff33;
   height: 80vh;
   overflow-y: auto;
+  color: #00ffff;
 }
 
 .output {
@@ -33,13 +35,13 @@ body {
 
 .prompt {
   margin-right: 0.5em;
-  color: #00ff00;
+  color: #00ffff;
 }
 
 input[type="text"] {
   background: transparent;
   border: none;
-  color: #33ff33;
+  color: #00ffff;
   font-family: inherit;
   font-size: 1em;
   outline: none;
